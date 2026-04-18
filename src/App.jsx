@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css'; 
+import pic from "./assets/pic no. 2.jpeg";
 
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
@@ -89,8 +90,9 @@ function App() {
 
     {/* RIGHT IMAGE SECTION */}
     <div style={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
+
       <img
-        src="pic no. 2.jpeg"
+        src={pic}
         alt="profile"
         style={{
           width: "100%",
